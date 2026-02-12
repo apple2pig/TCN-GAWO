@@ -314,13 +314,15 @@ All dependencies are listed in `requirements.txt`
 If you use this code or method in your research, please cite:
 
 ```bibtex
-@article{tcn_gwao_2024,
-  title={A Temporal Convolutional Network with Genetic Algorithm for Remaining Useful Life Prediction},
-  author={[Authors]},
-  journal={[Journal Name]},
+@article{gu2024tcn,
+  title={TCN-GAWO: Genetic algorithm enhanced weight optimization for temporal convolutional network},
+  author={Gu, Shuhuai and Xi, Qi and Wang, Jing and Qiu, Peizhen and Li, Mian},
+  journal={Journal of Mechanical Design},
+  volume={146},
+  number={10},
+  pages={101703},
   year={2024},
-  doi={10.1115/1.4064809},
-  url={https://doi.org/10.1115/1.4064809}
+  publisher={American Society of Mechanical Engineers}
 }
 ```
 
