@@ -67,14 +67,6 @@ TCN-GWAO/
 
 The Temporal Convolutional Network architecture features dilated causal convolutions with increasing dilation rates (1, 2, 4, 8), enabling the model to capture long-range temporal dependencies while maintaining computational efficiency.
 
-### Complete Process Workflow
-
-<div align="center">
-<img src="paper/The process diagram of TCN-GAWO.png" alt="TCN-GWAO Process Diagram" width="90%"/>
-</div>
-
-The complete TCN-GWAO workflow illustrates the integration of data preprocessing, TCN-based feature extraction, genetic algorithm optimization, and final RUL prediction with weighted averaging across multiple test windows.
-
 ## Installation
 
 ### Prerequisites
