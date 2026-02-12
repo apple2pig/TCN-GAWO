@@ -203,10 +203,13 @@ The GA evolves the TCN model weights over multiple generations:
 - **S-score**: Asymmetric scoring function for RUL prediction
 
 **S-score Formula**:
-```
-s = Σ exp(-d_i/13) - 1    if d_i < 0 (early prediction)
-s = Σ exp(d_i/10) - 1     if d_i ≥ 0 (late prediction)
-```
+$$
+s =
+\begin{cases}
+\displaystyle \sum_{i} \left( e^{-d_i/13} - 1 \right), & d_i < 0 \\[8pt]
+\displaystyle \sum_{i} \left( e^{d_i/10} - 1 \right), & d_i \ge 0
+\end{cases}
+$$
 where `d_i = predicted_RUL_i - true_RUL_i`
 
 The S-score penalizes late predictions more heavily than early ones, reflecting the higher cost of unexpected failures.
