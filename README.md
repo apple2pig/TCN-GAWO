@@ -1,4 +1,4 @@
-# TCN-GWAO: Temporal Convolutional Network with Genetic Algorithm for RUL Prediction
+# TCN-GAWO: Temporal Convolutional Network with Genetic Algorithm for RUL Prediction
 
 <div align="center">
 
